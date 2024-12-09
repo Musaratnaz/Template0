@@ -1,12 +1,17 @@
-import AboutPage from "@/components/about-header"
+import Header from "@/components/header";
+import ProductShowcase from "@/components/main";
+import MainTwo from "@/components/main-two";
 
 
-const About = () => {
+
+export default function Home() {
   return (
-    <>
-    <AboutPage />
-    </>
-  )
-}
+   <>
 
-export default About
+   <Header />
+   <ProductShowcase />
+   <MainTwo />
+
+   </>
+  );
+}
